@@ -21,17 +21,21 @@ If you want to make an LLM be ***more feeling (F) than thinking (T)*** by DPO, y
 
 And then compile the two into the correct format for DPO. For the correct format, please refer to [this](https://github.com/PKU-YuanGroup/Machine-Mindset/blob/main/datasets/dpo/README.md).
 
-## Explanation
+## Using these Datasets according to the paper
+
+[Machine Mindset](MM-paper.md)
+
+https://arxiv.org/pdf/2312.12999.pdf
 
 ### Three Types of Datasets:
 
-1. **Behavior Datasets**:
+1. [**Behavior Datasets**](dataset/behaviour):
    - Purpose: Train LLMs to respond consistently with specific personality traits
    - Created by customizing the Alpaca dataset for each MBTI dimension
-2. **Self-awareness Datasets**:
+2. [**Self-awareness Datasets**](dataset):
    - Purpose: Enable LLMs to recognize and describe their own personality traits
    - Consists of Q&A pairs for each of the 16 MBTI personality types
-3. **DPO (Direct Preference Optimization) Datasets**:
+3. [**DPO (Direct Preference Optimization) Datasets**](dataset/dpo):
    - Purpose: Reinforce the model's preference for responses aligned with target personality traits
    - Contains pairs of responses for each MBTI dimension (e.g., Feeling vs Thinking)
 
