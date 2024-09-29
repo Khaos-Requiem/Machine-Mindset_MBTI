@@ -25,8 +25,6 @@ And then compile the two into the correct format for DPO. For the correct format
 
 [Machine Mindset](MM-paper.md)
 
-https://arxiv.org/pdf/2312.12999.pdf
-
 ### Three Types of Datasets:
 
 1. [**Behavior Datasets**](dataset/behaviour):
@@ -41,11 +39,11 @@ https://arxiv.org/pdf/2312.12999.pdf
 
 ### Five Stages of Training:
 
-1. **First Stage of Supervised Fine-Tuning (SFT)**:
+1. [**First Stage of Supervised Fine-Tuning (SFT)**](dataset/behaviour/README.md):
    - Uses behavior datasets to train the model on responses consistent with specific MBTI traits
 2. **Second Stage of Supervised Fine-Tuning (SFT)**:
    - Uses self-awareness datasets to enhance the model's ability to recognize and describe its personality
-3. **Direct Preference Optimization (DPO)**:
+3. [**Direct Preference Optimization (DPO)**](dataset/dpo/README.md):
    - Trains the model to prefer responses aligned with the target personality traits
 4. **Evaluation**:
    - Assesses the model's personality traits using modified MBTI questionnaires

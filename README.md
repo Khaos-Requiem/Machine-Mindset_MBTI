@@ -2,9 +2,11 @@
 
 This repository organizes information around [Machine Mindset MBTI](https://github.com/PKU-YuanGroup/Machine-Mindset/)
 
-I have had a difficult time navigating the source repositories, so consolidating information from across huggingface, their original github repository, and what I can interpret via the paper.
+I have had a difficult time navigating the source repositories, so consolidating information from across huggingface, their original github repository, and what I can interpret via [the paper](MM-paper.md).
 
 the point being to get new models trained based on these datasets, rather than being dependent on the llama2 models available on GitHub.
+
+I included only the english datasets here, but of course those can be gotten from [the source](https://github.com/PKU-YuanGroup/Machine-Mindset/), if you need them.
 
 ***Original Readme (slightly pruned) for the repository below***
 
